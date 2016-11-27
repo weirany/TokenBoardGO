@@ -1,0 +1,18 @@
+PODS:
+  - IQDropDownTextField (1.1.0)
+  - IQKeyboardManager (4.0.7)
+  - SwiftyUserDefaults (3.0.0)
+
+DEPENDENCIES:
+  - IQDropDownTextField
+  - IQKeyboardManager
+  - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  IQDropDownTextField: 614f79ca905529c992045eaa112d0fc9ebb875d1
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+
+PODFILE CHECKSUM: 9c02b7684868ff0f4903f77d697117e69ee666fa
+
+COCOAPODS: 1.1.0.rc.2

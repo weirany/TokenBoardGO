@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020918441DE98175009C6D7E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020918431DE98175009C6D7E /* Extension.swift */; };
+		020918461DE9F921009C6D7E /* AppIconAsset in Resources */ = {isa = PBXBuildFile; fileRef = 020918451DE9F921009C6D7E /* AppIconAsset */; };
+		028A10111DE96B3B00148096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A10101DE96B3B00148096 /* AppDelegate.swift */; };
+		028A10131DE96B3B00148096 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A10121DE96B3B00148096 /* ViewController.swift */; };
+		028A10161DE96B3B00148096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028A10141DE96B3B00148096 /* Main.storyboard */; };
+		028A10181DE96B3B00148096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028A10171DE96B3B00148096 /* Assets.xcassets */; };
+		028A101B1DE96B3B00148096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028A10191DE96B3B00148096 /* LaunchScreen.storyboard */; };
+		028A10231DE96CE300148096 /* CuteBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 028A10221DE96CE300148096 /* CuteBackground.jpg */; };
+		4518E61875F32773740462DD /* Pods_TokenBoardGO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CB27AF74BC4DAD28CCA566 /* Pods_TokenBoardGO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020918431DE98175009C6D7E /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		020918451DE9F921009C6D7E /* AppIconAsset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIconAsset; sourceTree = "<group>"; };
+		028A100D1DE96B3B00148096 /* TokenBoardGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenBoardGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		028A10101DE96B3B00148096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		028A10121DE96B3B00148096 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		028A10151DE96B3B00148096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		028A10171DE96B3B00148096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		028A101A1DE96B3B00148096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		028A101C1DE96B3B00148096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028A10221DE96CE300148096 /* CuteBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CuteBackground.jpg; sourceTree = "<group>"; };
+		16CB27AF74BC4DAD28CCA566 /* Pods_TokenBoardGO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokenBoardGO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B12E23CB2909994E564949C /* Pods-TokenBoardGO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenBoardGO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO.debug.xcconfig"; sourceTree = "<group>"; };
+		EF52D5755BA3670CA1706673 /* Pods-TokenBoardGO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenBoardGO.release.xcconfig"; path = "Pods/Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028A100A1DE96B3A00148096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4518E61875F32773740462DD /* Pods_TokenBoardGO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A21EE5151715F1D52065F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B12E23CB2909994E564949C /* Pods-TokenBoardGO.debug.xcconfig */,
+				EF52D5755BA3670CA1706673 /* Pods-TokenBoardGO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		028A10041DE96B3A00148096 = {
+			isa = PBXGroup;
+			children = (
+				028A100F1DE96B3B00148096 /* TokenBoardGO */,
+				028A100E1DE96B3B00148096 /* Products */,
+				01A21EE5151715F1D52065F4 /* Pods */,
+				8C8279BF9E6745573B17D07E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		028A100E1DE96B3B00148096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028A100D1DE96B3B00148096 /* TokenBoardGO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		028A100F1DE96B3B00148096 /* TokenBoardGO */ = {
+			isa = PBXGroup;
+			children = (
+				020918451DE9F921009C6D7E /* AppIconAsset */,
+				028A10221DE96CE300148096 /* CuteBackground.jpg */,
+				028A10101DE96B3B00148096 /* AppDelegate.swift */,
+				028A10121DE96B3B00148096 /* ViewController.swift */,
+				028A10141DE96B3B00148096 /* Main.storyboard */,
+				028A10171DE96B3B00148096 /* Assets.xcassets */,
+				028A10191DE96B3B00148096 /* LaunchScreen.storyboard */,
+				028A101C1DE96B3B00148096 /* Info.plist */,
+				020918431DE98175009C6D7E /* Extension.swift */,
+			);
+			path = TokenBoardGO;
+			sourceTree = "<group>";
+		};
+		8C8279BF9E6745573B17D07E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16CB27AF74BC4DAD28CCA566 /* Pods_TokenBoardGO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		028A100C1DE96B3A00148096 /* TokenBoardGO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028A101F1DE96B3B00148096 /* Build configuration list for PBXNativeTarget "TokenBoardGO" */;
+			buildPhases = (
+				F570654A8FF09A593E36B697 /* [CP] Check Pods Manifest.lock */,
+				028A10091DE96B3A00148096 /* Sources */,
+				028A100A1DE96B3A00148096 /* Frameworks */,
+				028A100B1DE96B3A00148096 /* Resources */,
+				B6530CCB1BCDC54F7FF5620A /* [CP] Embed Pods Frameworks */,
+				E968524A45B08D1A8F3C3437 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokenBoardGO;
+			productName = TokenBoardGO;
+			productReference = 028A100D1DE96B3B00148096 /* TokenBoardGO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028A10051DE96B3A00148096 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Talkan;
+				TargetAttributes = {
+					028A100C1DE96B3A00148096 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SU48UGSAPP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 028A10081DE96B3A00148096 /* Build configuration list for PBXProject "TokenBoardGO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 028A10041DE96B3A00148096;
+			productRefGroup = 028A100E1DE96B3B00148096 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				028A100C1DE96B3A00148096 /* TokenBoardGO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028A100B1DE96B3A00148096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028A101B1DE96B3B00148096 /* LaunchScreen.storyboard in Resources */,
+				028A10181DE96B3B00148096 /* Assets.xcassets in Resources */,
+				028A10231DE96CE300148096 /* CuteBackground.jpg in Resources */,
+				028A10161DE96B3B00148096 /* Main.storyboard in Resources */,
+				020918461DE9F921009C6D7E /* AppIconAsset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6530CCB1BCDC54F7FF5620A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E968524A45B08D1A8F3C3437 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F570654A8FF09A593E36B697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028A10091DE96B3A00148096 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020918441DE98175009C6D7E /* Extension.swift in Sources */,
+				028A10131DE96B3B00148096 /* ViewController.swift in Sources */,
+				028A10111DE96B3B00148096 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		028A10141DE96B3B00148096 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028A10151DE96B3B00148096 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		028A10191DE96B3B00148096 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028A101A1DE96B3B00148096 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		028A101D1DE96B3B00148096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		028A101E1DE96B3B00148096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		028A10201DE96B3B00148096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B12E23CB2909994E564949C /* Pods-TokenBoardGO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SU48UGSAPP;
+				INFOPLIST_FILE = TokenBoardGO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkan.TokenBoardGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		028A10211DE96B3B00148096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF52D5755BA3670CA1706673 /* Pods-TokenBoardGO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SU48UGSAPP;
+				INFOPLIST_FILE = TokenBoardGO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkan.TokenBoardGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028A10081DE96B3A00148096 /* Build configuration list for PBXProject "TokenBoardGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028A101D1DE96B3B00148096 /* Debug */,
+				028A101E1DE96B3B00148096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028A101F1DE96B3B00148096 /* Build configuration list for PBXNativeTarget "TokenBoardGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028A10201DE96B3B00148096 /* Debug */,
+				028A10211DE96B3B00148096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 028A10051DE96B3A00148096 /* Project object */;
+}
