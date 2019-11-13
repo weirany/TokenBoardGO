@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		020918441DE98175009C6D7E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020918431DE98175009C6D7E /* Extension.swift */; };
 		020918461DE9F921009C6D7E /* AppIconAsset in Resources */ = {isa = PBXBuildFile; fileRef = 020918451DE9F921009C6D7E /* AppIconAsset */; };
 		028A10111DE96B3B00148096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A10101DE96B3B00148096 /* AppDelegate.swift */; };
 		028A10131DE96B3B00148096 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A10121DE96B3B00148096 /* ViewController.swift */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		020918431DE98175009C6D7E /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		020918451DE9F921009C6D7E /* AppIconAsset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIconAsset; sourceTree = "<group>"; };
 		028A100D1DE96B3B00148096 /* TokenBoardGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenBoardGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		028A10101DE96B3B00148096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 				028A10171DE96B3B00148096 /* Assets.xcassets */,
 				028A10191DE96B3B00148096 /* LaunchScreen.storyboard */,
 				028A101C1DE96B3B00148096 /* Info.plist */,
-				020918431DE98175009C6D7E /* Extension.swift */,
 			);
 			path = TokenBoardGO;
 			sourceTree = "<group>";
@@ -109,7 +106,6 @@
 				028A100A1DE96B3A00148096 /* Frameworks */,
 				028A100B1DE96B3A00148096 /* Resources */,
 				B6530CCB1BCDC54F7FF5620A /* [CP] Embed Pods Frameworks */,
-				E968524A45B08D1A8F3C3437 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,13 +123,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = Talkan;
 				TargetAttributes = {
 					028A100C1DE96B3A00148096 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = SU48UGSAPP;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -143,6 +139,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -178,28 +175,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQDropDownTextField/IQDropDownTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQDropDownTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E968524A45B08D1A8F3C3437 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F570654A8FF09A593E36B697 /* [CP] Check Pods Manifest.lock */ = {
@@ -208,13 +195,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokenBoardGO-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -224,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				020918441DE98175009C6D7E /* Extension.swift in Sources */,
 				028A10131DE96B3B00148096 /* ViewController.swift in Sources */,
 				028A10111DE96B3B00148096 /* AppDelegate.swift in Sources */,
 			);
@@ -256,20 +245,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -307,20 +305,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -359,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.talkan.TokenBoardGO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -375,7 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.talkan.TokenBoardGO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
