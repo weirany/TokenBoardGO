@@ -21,7 +21,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
         goalButton.titleLabel?.numberOfLines = 1
         goalButton.titleLabel?.adjustsFontSizeToFitWidth = true
         goalButton.titleLabel?.lineBreakMode = .byClipping
@@ -43,6 +42,10 @@ class ViewController: UIViewController {
         for i in 0...4 {
             setStar(index: i, set: starsStatus[i])
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
 //    @IBAction func goalChanged(_ sender: Any) {

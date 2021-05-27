@@ -14,6 +14,7 @@
 		028A10181DE96B3B00148096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028A10171DE96B3B00148096 /* Assets.xcassets */; };
 		028A101B1DE96B3B00148096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028A10191DE96B3B00148096 /* LaunchScreen.storyboard */; };
 		028A10231DE96CE300148096 /* CuteBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 028A10221DE96CE300148096 /* CuteBackground.jpg */; };
+		02C4CF0526604B250082010F /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C4CF0426604B250082010F /* GoalViewController.swift */; };
 		4518E61875F32773740462DD /* Pods_TokenBoardGO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CB27AF74BC4DAD28CCA566 /* Pods_TokenBoardGO.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		028A101A1DE96B3B00148096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		028A101C1DE96B3B00148096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		028A10221DE96CE300148096 /* CuteBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CuteBackground.jpg; sourceTree = "<group>"; };
+		02C4CF0426604B250082010F /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
 		16CB27AF74BC4DAD28CCA566 /* Pods_TokenBoardGO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokenBoardGO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B12E23CB2909994E564949C /* Pods-TokenBoardGO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenBoardGO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO.debug.xcconfig"; sourceTree = "<group>"; };
 		EF52D5755BA3670CA1706673 /* Pods-TokenBoardGO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenBoardGO.release.xcconfig"; path = "Pods/Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				028A10171DE96B3B00148096 /* Assets.xcassets */,
 				028A10191DE96B3B00148096 /* LaunchScreen.storyboard */,
 				028A101C1DE96B3B00148096 /* Info.plist */,
+				02C4CF0426604B250082010F /* GoalViewController.swift */,
 			);
 			path = TokenBoardGO;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C4CF0526604B250082010F /* GoalViewController.swift in Sources */,
 				028A10131DE96B3B00148096 /* ViewController.swift in Sources */,
 				028A10111DE96B3B00148096 /* AppDelegate.swift in Sources */,
 			);

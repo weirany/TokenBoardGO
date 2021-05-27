@@ -121,7 +121,7 @@
         <!--Pick a Goal-->
         <scene sceneID="W9h-oD-Eq9">
             <objects>
-                <viewController id="leG-XZ-S8L" sceneMemberID="viewController">
+                <viewController id="leG-XZ-S8L" customClass="GoalViewController" customModule="TokenBoardGO" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="N1J-iU-mky"/>
                         <viewControllerLayoutGuide type="bottom" id="K1v-sN-smY"/>
