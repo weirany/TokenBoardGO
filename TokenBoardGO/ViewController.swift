@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         if UserDefaults.standard.string(forKey: UDK_goal) == nil {
             UserDefaults.standard.set(self.goals[0], forKey: UDK_goal)
         }
-        starsStatus = (UserDefaults.standard.array(forKey: UDK_starsStatus) ?? []) as [Bool]
+        starsStatus = (UserDefaults.standard.array(forKey: UDK_starsStatus) ?? []) as! [Bool]
         if starsStatus.count != 5 {
             starsStatus = [false, false, false, false, false]
             UserDefaults.standard.set(starsStatus, forKey: UDK_starsStatus)
