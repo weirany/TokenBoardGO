@@ -1,10 +1,9 @@
 import UIKit
-import IQDropDownTextField
 import StoreKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var goalText: IQDropDownTextField!
+    @IBOutlet weak var goalButton: UIButton!
     @IBOutlet weak var s0: UIButton!
     @IBOutlet weak var s1: UIButton!
     @IBOutlet weak var s2: UIButton!
@@ -22,6 +21,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+        goalButton.titleLabel?.numberOfLines = 1
+        goalButton.titleLabel?.adjustsFontSizeToFitWidth = true
+        goalButton.titleLabel?.lineBreakMode = .byClipping
+        
         self.stars = [s0, s1, s2, s3, s4]
 
         // first time loading the app? initialize Users Defaults
@@ -34,23 +38,16 @@ class ViewController: UIViewController {
             UserDefaults.standard.set(starsStatus, forKey: UDK_starsStatus)
         }
         
-        goalText.isOptionalDropDown = false
-        goalText.itemList = self.goals
-        goalText.setSelectedRow(0, animated: false)
-        
         // load the saved defaults
-        // Goal emoji
-        let goalIndex = goals.firstIndex(of: UserDefaults.standard.string(forKey: UDK_goal)!)!
-        goalText.setSelectedRow(goalIndex, animated: false)
-        // stars status
+        goalButton.setTitle(UserDefaults.standard.string(forKey: UDK_goal)!, for: .normal)
         for i in 0...4 {
             setStar(index: i, set: starsStatus[i])
         }
     }
     
-    @IBAction func goalChanged(_ sender: Any) {
-        UserDefaults.standard.set(goalText.selectedItem!, forKey: UDK_goal)
-    }
+//    @IBAction func goalChanged(_ sender: Any) {
+//        UserDefaults.standard.set(goalText.selectedItem!, forKey: UDK_goal)
+//    }
 
     @IBAction func starClicked(_ sender: UIButton) {
         let index = sender.tag
