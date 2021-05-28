@@ -40,4 +40,9 @@ class GoalViewController: UIViewController, UISearchBarDelegate, UICollectionVie
         cell.emojiLabel.text = emojis[indexPath.row].emoji
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        UserDefaults.standard.set(emojis[indexPath.row].emoji, forKey: UDK_goal)
+        self.navigationController?.popViewController(animated: true)
+    }
 }

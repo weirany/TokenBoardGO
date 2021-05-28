@@ -15,9 +15,6 @@ class ViewController: UIViewController {
     
     let goals = ["❓","🍕","🍟","🐒","🐳","🐇","🌻","🍄","🎃","☃️","🍎","🍉","🍇","🧀","🍗","🍔","🌭","🍝","🌮","🍜","🍦","🍰","🍬","🍭","🍫","🍿","🍩","🍪","🍴","⚽️","🏀","🏈","⚾️","🎾","🏐","🏉","🎱","🏓","🏸","🏊‍♀️","🛀","🎗","🏆","🎤","🎮","🎼","🚕","🚌","🚒","✈️","🛥","🎡","📱","💻","📽","📺","💵","🔫","🔭","⛱","📖","❤️","♠️"]
     
-    let UDK_starsStatus = "starsStatus"
-    let UDK_goal = "goal"
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,7 +26,7 @@ class ViewController: UIViewController {
 
         // first time loading the app? initialize Users Defaults
         if UserDefaults.standard.string(forKey: UDK_goal) == nil {
-            UserDefaults.standard.set(self.goals[0], forKey: UDK_goal)
+            UserDefaults.standard.set("❓", forKey: UDK_goal)
         }
         starsStatus = (UserDefaults.standard.array(forKey: UDK_starsStatus) ?? []) as! [Bool]
         if starsStatus.count != 5 {
@@ -37,7 +34,7 @@ class ViewController: UIViewController {
             UserDefaults.standard.set(starsStatus, forKey: UDK_starsStatus)
         }
         
-        // load the saved defaults
+        // load the saved values
         goalButton.setTitle(UserDefaults.standard.string(forKey: UDK_goal)!, for: .normal)
         for i in 0...4 {
             setStar(index: i, set: starsStatus[i])
@@ -46,11 +43,8 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.setNavigationBarHidden(true, animated: false)
+        goalButton.setTitle(UserDefaults.standard.string(forKey: UDK_goal)!, for: .normal)
     }
-    
-//    @IBAction func goalChanged(_ sender: Any) {
-//        UserDefaults.standard.set(goalText.selectedItem!, forKey: UDK_goal)
-//    }
 
     @IBAction func starClicked(_ sender: UIButton) {
         let index = sender.tag
