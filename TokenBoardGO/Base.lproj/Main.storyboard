@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -129,13 +130,52 @@
                     <view key="view" contentMode="scaleToFill" id="bgP-2q-mXX">
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="5Qx-y0-H8j">
+                                <rect key="frame" x="0.0" y="32" width="568" height="51"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="26c-aJ-f0N">
+                                <rect key="frame" x="0.0" y="83" width="568" height="237"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Lz4-zP-c3c">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="emojiCell" id="I5C-mx-382">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lq7-3S-3TV">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5Qx-y0-H8j" secondAttribute="trailing" id="DXt-OE-lO3"/>
+                            <constraint firstAttribute="trailing" secondItem="26c-aJ-f0N" secondAttribute="trailing" id="XaB-nq-E2p"/>
+                            <constraint firstItem="5Qx-y0-H8j" firstAttribute="leading" secondItem="bgP-2q-mXX" secondAttribute="leading" id="XsP-B7-GO5"/>
+                            <constraint firstItem="5Qx-y0-H8j" firstAttribute="top" secondItem="N1J-iU-mky" secondAttribute="bottom" symbolic="YES" id="YJC-1w-kmn"/>
+                            <constraint firstItem="26c-aJ-f0N" firstAttribute="leading" secondItem="bgP-2q-mXX" secondAttribute="leading" id="a0J-aW-Cif"/>
+                            <constraint firstItem="26c-aJ-f0N" firstAttribute="top" secondItem="5Qx-y0-H8j" secondAttribute="bottom" id="dWb-3p-Hw0"/>
+                            <constraint firstItem="K1v-sN-smY" firstAttribute="top" secondItem="26c-aJ-f0N" secondAttribute="bottom" id="vx2-6P-yOh"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Pick a Goal" id="vbS-Au-VM8"/>
+                    <connections>
+                        <outlet property="emojiCollection" destination="26c-aJ-f0N" id="HJ9-dx-h7T"/>
+                        <outlet property="searchBar" destination="5Qx-y0-H8j" id="gqE-na-4HE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vjj-u1-aep" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="62"/>
+            <point key="canvasLocation" x="750" y="61.875"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="V0F-aM-7dX">
