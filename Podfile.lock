@@ -1,20 +1,20 @@
 PODS:
-  - IQDropDownTextField (1.1.1)
   - IQKeyboardManager (6.5.3)
+  - Smile (2.0.0)
 
 DEPENDENCIES:
-  - IQDropDownTextField
   - IQKeyboardManager
+  - Smile
 
 SPEC REPOS:
   trunk:
-    - IQDropDownTextField
     - IQKeyboardManager
+    - Smile
 
 SPEC CHECKSUMS:
-  IQDropDownTextField: 3d2e5728a2b83ff5dbb14cb9b497a80005124cbe
   IQKeyboardManager: c2f901164d56807a35788483584d09fa69192e8e
+  Smile: 21ff6c48e06ecfcee605cca32aedd74d5810e34a
 
-PODFILE CHECKSUM: 0b23e24f2b489e566f026f7cf949bd71295a91a6
+PODFILE CHECKSUM: eda98acf5d3cb2e577dc25fec7e66f3535bdab70
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

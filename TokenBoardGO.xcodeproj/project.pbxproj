@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		020918461DE9F921009C6D7E /* AppIconAsset in Resources */ = {isa = PBXBuildFile; fileRef = 020918451DE9F921009C6D7E /* AppIconAsset */; };
+		0253879A2661726200E55900 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025387992661726200E55900 /* Emoji.swift */; };
 		028A10111DE96B3B00148096 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A10101DE96B3B00148096 /* AppDelegate.swift */; };
 		028A10131DE96B3B00148096 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A10121DE96B3B00148096 /* ViewController.swift */; };
 		028A10161DE96B3B00148096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028A10141DE96B3B00148096 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		020918451DE9F921009C6D7E /* AppIconAsset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIconAsset; sourceTree = "<group>"; };
+		025387992661726200E55900 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		028A100D1DE96B3B00148096 /* TokenBoardGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenBoardGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		028A10101DE96B3B00148096 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		028A10121DE96B3B00148096 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				028A10191DE96B3B00148096 /* LaunchScreen.storyboard */,
 				028A101C1DE96B3B00148096 /* Info.plist */,
 				02C4CF0426604B250082010F /* GoalViewController.swift */,
+				025387992661726200E55900 /* Emoji.swift */,
 			);
 			path = TokenBoardGO;
 			sourceTree = "<group>";
@@ -178,13 +181,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/IQDropDownTextField/IQDropDownTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Smile/Smile.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQDropDownTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Smile.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -218,6 +221,7 @@
 			files = (
 				02C4CF0526604B250082010F /* GoalViewController.swift in Sources */,
 				028A10131DE96B3B00148096 /* ViewController.swift in Sources */,
+				0253879A2661726200E55900 /* Emoji.swift in Sources */,
 				028A10111DE96B3B00148096 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
