@@ -24,6 +24,7 @@ class GoalViewController: UIViewController, UISearchBarDelegate, UICollectionVie
 
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         emojis = allEmojis.filter(keyword: searchText)
+        emojiCollection.reloadData()
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -35,7 +36,8 @@ class GoalViewController: UIViewController, UISearchBarDelegate, UICollectionVie
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "emojiCell", for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "emojiCell", for: indexPath) as! EmojiViewCell
+        cell.emojiLabel.text = emojis[indexPath.row].emoji
         return cell
     }
 }

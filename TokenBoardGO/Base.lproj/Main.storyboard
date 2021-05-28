@@ -145,13 +145,33 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="emojiCell" id="I5C-mx-382">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="emojiCell" id="I5C-mx-382" customClass="EmojiViewCell" customModule="TokenBoardGO" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="lq7-3S-3TV">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="❓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMF-jG-AIb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="DMF-jG-AIb" secondAttribute="height" multiplier="1:1" id="66t-RJ-on4"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="DMF-jG-AIb" firstAttribute="leading" secondItem="lq7-3S-3TV" secondAttribute="leading" id="4J8-6R-fF4"/>
+                                                <constraint firstAttribute="bottom" secondItem="DMF-jG-AIb" secondAttribute="bottom" id="5kJ-U1-Z9q"/>
+                                                <constraint firstItem="DMF-jG-AIb" firstAttribute="top" secondItem="lq7-3S-3TV" secondAttribute="top" id="JgV-hJ-P1f"/>
+                                                <constraint firstAttribute="trailing" secondItem="DMF-jG-AIb" secondAttribute="trailing" id="dcl-Kf-2A3"/>
+                                            </constraints>
                                         </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="emojiLabel" destination="DMF-jG-AIb" id="JLk-Fz-oH7"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
