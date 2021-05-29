@@ -7,65 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		021A7843610D4AFDCFD51729F5F6DAA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */; };
-		0EB90AE9BFDC21531E8CD9BFDA1C968F /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED34BADF5B15F1E6472B1463B4698BC7 /* IQTextView.m */; };
-		0F3485F8326C24CF4A12603C107370A5 /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0446920D1A4998EA24D644314E5C9258 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1161101396D504B3A18FE07B75DF6085 /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 339DD22FEE2C7545BCCD8EE5BB2166C5 /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12C79C87BC6B32DF94E1AF82F511260D /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B760B7AB096F85DDC00ADF648FDE5CA /* IQKeyboardManager.bundle */; };
-		131B861CA2259B3EA41C39A2FCFF1425 /* Smile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64DA896A7E28319772B0F21277C874 /* Smile.swift */; };
-		18EE8777010D3F8AFEC986A7D01BA525 /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D52A2CD295EB8A96345EBB203325CDDB /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D1B584D5A7CA4A3CD7CBC19F9F3950C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
-		351FB73EC804FF12AC1F9F082976128A /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DFA94E9D5623A5CCC467743B798CC6 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		368CFB934734CF29A4D945F9A08AAF86 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B2E4BC421B14977F2DACD82F3B0457 /* IQUITextFieldView+Additions.m */; };
-		3FAA3F496A1ECACD89BF5BCEF5B7EEF4 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19EF00FD772C5A003DB9041EEEDC68A /* Categories.swift */; };
-		4A9565433B945CBD0F0AE3E2C815F9DD /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4616DAC6DEE20ECFEC004ED3887FA4 /* IQKeyboardReturnKeyHandler.m */; };
-		4E19C6212BD51460F371133C4261D847 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB9E15D9F46203295CAB9F9EF18AB64 /* IQUIViewController+Additions.m */; };
-		4FCF4B26378C4F12FC4762DCEA7281A7 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 122596E885B07B167994FED6EE747BE7 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58AE6FB6094C1862900D505FEDC16968 /* Smile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F46C0BE2D579FE1EF02C64B47B99B57 /* Smile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BAFCED874962525AFEDE2D498F53F9E /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 530CCC145D35B0265358351E5F8C587B /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E5852BCCDDBF67E8986DF8B0E9A8A07 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = B66F988283265A3B8347033147651F88 /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		63978BDAAE1BBA56E6B592A6A2708C4F /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30F1E7CE6D45181716B2C43F114D73 /* IQPreviousNextView.m */; };
-		6832EA785B2DBF330BA54A0E83ACE782 /* Pods-TokenBoardGO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD8F5782ABDFBDC99AD1EBD613A2DC /* Pods-TokenBoardGO-dummy.m */; };
-		6A996F5C6903770D358005EAB72A55E8 /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAEC7D5090B4A8E7878E7BB5E1E05CE /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A245C17ED53994D3379CAA7B2CFEDB4 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4070AFCF6BFD6AAC2F6330FE4D3B7436 /* IQTitleBarButtonItem.m */; };
-		7D2B4105D3B7237DC6C4F5348A309DAC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35862DA6CBA7903FB8E22F74EEFFDAC1 /* Utils.swift */; };
-		850BAD4363C44CE8D1E968F48AC2CAD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
-		86ABEE62AC98E694BE62BB7C102BA47C /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC2C5F4F4755F38DC6ADB03C49F9CFC /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88280BED17CF630BF698A27866C8FD14 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C94AB6CCA561A23A6E329FA2EE25069 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C75B92FE80B51357B72756F0CA09582 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F354926687383DCE5891E4FDD4140074 /* IQBarButtonItem.m */; };
-		8D8E61066151E92842C65B71123BECF4 /* Pods-TokenBoardGO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B816DE701E1F014FFD266D3AB64D1F /* Pods-TokenBoardGO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		974DC4F4A8679294AE1C06A3566F748B /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A23B16A0E347797E8B30D4A42FC12D /* IQKeyboardManager.m */; };
-		98FDDEDD1A72081116963E600DF50B59 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B3F9A06C0178243475F38CBB53263E /* IQNSArray+Sort.m */; };
-		9D326F1DF11052BC70C799F5E6842DC3 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F796A92A64B08D3CFB9F6014E14DD1D1 /* Emoji.swift */; };
-		9E3263E95377586A7A509968FE55FA1C /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E81856C2426B89F7EC5B6A4FCB97836D /* IQUIView+IQKeyboardToolbar.m */; };
-		9F3D9B2D91207655A77733069532F5E3 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5209DA344E1681023D02839E18A54C /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFCD164C50145578AFEE1DE092A70E6B /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3BF11DC8654361FA6BC03C37BF611 /* IQKeyboardManager-dummy.m */; };
-		B39A4110B2A1B646ACDD717B8AF84A05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */; };
-		B48E93F2278C9C30502D987B9C4ED1D3 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 140EC7DCEC7DCFDD43D30DE0B335A1D7 /* IQUIView+Hierarchy.m */; };
-		B4CCB4425FE90A30A073C7FEC765B913 /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5A024499FD3C39F17485D5FA90B43D /* IQUIWindow+Hierarchy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BD2296C85482BD0C9F296EEFB0A821BD /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEEC39D65E40CD5CA75E34D2C1E1298 /* IQToolbar.m */; };
-		BDEE54360E89D4968822AC0AA4114CEB /* Smile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D18AA025592FBF819041FE03B737BF /* Smile-dummy.m */; };
-		C603F0C51240AC2C953CB00A8BBD4994 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E7C5728C902388648C36D64CB766FF /* IQUIWindow+Hierarchy.m */; };
-		D0AFC307B4FF77BAF3481388470DF9DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */; };
-		D2A48900D67BE103CC3D1B827E4D1341 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EC833B2089A6EE4044DD3BF3F92F6B2F /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAAA85C2A08AF6F8C6F7A04DB95B7D4B /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D41FB65DC85DBD0F51E0B7D6C98136A0 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB6E6EE7C7A0B6965E36728A5C4B872D /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = E750C718095FC25E7168B9C10844CBE3 /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDDE5B1791168886BC78708CC7A119E4 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A908D3E269AC6A933C23C92821247CCA /* IQUIScrollView+Additions.m */; };
-		EE60DC25895EF60DCEB742CF68327600 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1012B93894F5F0DA4D158837A68FEC50 /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EE873445FD224B8C0AA6711C3185C96B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */; };
-		F021A051DE072176217389A606A5C90F /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF2C18CEBAEF07C7BF02D9B6B5561D6 /* Sequence.swift */; };
-		F09068736605E970149CD44E90743C6A /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C4D38B4C1D388F0740CB4DA68615043 /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		131B861CA2259B3EA41C39A2FCFF1425 /* Smile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601290656903B1B222FAA79FEB745FE7 /* Smile.swift */; };
+		184D7AED0A16DAA83038A31A7965E3A4 /* Pods-TokenBoardGO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BD8F5782ABDFBDC99AD1EBD613A2DC /* Pods-TokenBoardGO-dummy.m */; };
+		2A5A97CA074A77850A5167B2F0A109D7 /* Pods-TokenBoardGO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B816DE701E1F014FFD266D3AB64D1F /* Pods-TokenBoardGO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F920A523B8835F3DBBC24D28351087A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3FAA3F496A1ECACD89BF5BCEF5B7EEF4 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA5BFC47D52F514F0D9465666F56DCE /* Categories.swift */; };
+		58AE6FB6094C1862900D505FEDC16968 /* Smile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB83FC6A96D0C58E38ADBE8BF29CBE6 /* Smile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2B4105D3B7237DC6C4F5348A309DAC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFB412667C0963B54BD258DE4CDD5DB /* Utils.swift */; };
+		9D326F1DF11052BC70C799F5E6842DC3 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6528634EB1514AA80E5F06E434A45C3 /* Emoji.swift */; };
+		BDEE54360E89D4968822AC0AA4114CEB /* Smile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C68334B78E99F58BF3807AFE9C15E2B /* Smile-dummy.m */; };
+		D0AFC307B4FF77BAF3481388470DF9DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F021A051DE072176217389A606A5C90F /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F0DB14D2C5D55F8EC89A9BB3FFFA3 /* Sequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AC14B81438C9F21637AFEC0F01342C03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FBA456CB50E371584C11231929A0971E;
-			remoteInfo = IQKeyboardManager;
-		};
-		FF887AA705767AD5CCBBD7A43A3AB030 /* PBXContainerItemProxy */ = {
+		04A538F64CC295629B3559CCF81652B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -75,76 +31,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0446920D1A4998EA24D644314E5C9258 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
-		0DAAF9FBEDF0BD57EFC8E6987BB7CB89 /* IQKeyboardManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.debug.xcconfig; sourceTree = "<group>"; };
-		0DAEC7D5090B4A8E7878E7BB5E1E05CE /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
-		0E30F1E7CE6D45181716B2C43F114D73 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
-		0EC3BF11DC8654361FA6BC03C37BF611 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
-		1012B93894F5F0DA4D158837A68FEC50 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
-		122596E885B07B167994FED6EE747BE7 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
-		140EC7DCEC7DCFDD43D30DE0B335A1D7 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
-		16221D498C84F148CEAA278ED3EEB009 /* Smile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Smile-Info.plist"; sourceTree = "<group>"; };
-		1B760B7AB096F85DDC00ADF648FDE5CA /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		0C68334B78E99F58BF3807AFE9C15E2B /* Smile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Smile-dummy.m"; sourceTree = "<group>"; };
 		1C5D115E137AB4290490BD9CAD26210A /* Pods-TokenBoardGO-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TokenBoardGO-acknowledgements.plist"; sourceTree = "<group>"; };
-		1DC2C5F4F4755F38DC6ADB03C49F9CFC /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
-		1F3B8EA8FD7EB8FEED69FA5314943A44 /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
-		20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1EFB412667C0963B54BD258DE4CDD5DB /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
 		2444DD00ECCFAC1CE1D0E334CC5CE3AA /* Pods-TokenBoardGO-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TokenBoardGO-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2AF36E12CEC070D04EF4641B0CB937D8 /* Pods-TokenBoardGO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TokenBoardGO.release.xcconfig"; sourceTree = "<group>"; };
-		339DD22FEE2C7545BCCD8EE5BB2166C5 /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
-		35862DA6CBA7903FB8E22F74EEFFDAC1 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
-		3C4D38B4C1D388F0740CB4DA68615043 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
-		4070AFCF6BFD6AAC2F6330FE4D3B7436 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
-		530CCC145D35B0265358351E5F8C587B /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
-		56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2DA5BFC47D52F514F0D9465666F56DCE /* Categories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Categories.swift; path = Sources/Categories.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A97A8FDB4BCB917DE789CD0CF59CC31 /* Smile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Smile-Info.plist"; sourceTree = "<group>"; };
+		3C7F0DB14D2C5D55F8EC89A9BB3FFFA3 /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = Sources/Sequence.swift; sourceTree = "<group>"; };
+		56670AEA2991E1899B260334419DEFE6 /* Smile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Smile.debug.xcconfig; sourceTree = "<group>"; };
 		589BE9588AAAD5B7975945A80CC21C70 /* Pods-TokenBoardGO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TokenBoardGO.debug.xcconfig"; sourceTree = "<group>"; };
-		5F5209DA344E1681023D02839E18A54C /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
-		6A1B53CE87741F718DED58E155373CE8 /* Smile-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smile-prefix.pch"; sourceTree = "<group>"; };
-		6BF2C18CEBAEF07C7BF02D9B6B5561D6 /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = Sources/Sequence.swift; sourceTree = "<group>"; };
-		6F46C0BE2D579FE1EF02C64B47B99B57 /* Smile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smile-umbrella.h"; sourceTree = "<group>"; };
+		601290656903B1B222FAA79FEB745FE7 /* Smile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Smile.swift; path = Sources/Smile.swift; sourceTree = "<group>"; };
+		6DB83FC6A96D0C58E38ADBE8BF29CBE6 /* Smile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smile-umbrella.h"; sourceTree = "<group>"; };
 		70F6E4E97F1EF8DA8CB07DA848F0B49B /* Pods-TokenBoardGO-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TokenBoardGO-Info.plist"; sourceTree = "<group>"; };
-		71AAEBA1570632C55DA0635CCEB11153 /* Smile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Smile.release.xcconfig; sourceTree = "<group>"; };
-		762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76D18AA025592FBF819041FE03B737BF /* Smile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Smile-dummy.m"; sourceTree = "<group>"; };
-		7F00E19AE806C4FD51D9277F9A6B3BB3 /* IQKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManager-Info.plist"; sourceTree = "<group>"; };
-		84664B7DA3E20D6F28CC46F16F0D1BBA /* Smile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Smile.modulemap; sourceTree = "<group>"; };
-		84DFA94E9D5623A5CCC467743B798CC6 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
 		8A708360B2DF6B406B6087BC405EC2C1 /* Pods-TokenBoardGO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TokenBoardGO.modulemap"; sourceTree = "<group>"; };
-		8E64DA896A7E28319772B0F21277C874 /* Smile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Smile.swift; path = Sources/Smile.swift; sourceTree = "<group>"; };
+		8EB34008DDB5DF9E6CB5E6C2FFCBD35F /* Smile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Smile.release.xcconfig; sourceTree = "<group>"; };
 		908B9E4B6A1298C194BFD6C2A0B47B42 /* Pods-TokenBoardGO-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TokenBoardGO-frameworks.sh"; sourceTree = "<group>"; };
-		92B3F9A06C0178243475F38CBB53263E /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
-		98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		994D3D805D47237683DE8B0A24C96A85 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
-		9C94AB6CCA561A23A6E329FA2EE25069 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
-		9D5A024499FD3C39F17485D5FA90B43D /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		93547A98A40D8CC1AAA6CDFE7852C546 /* Smile-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smile-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2E7C5728C902388648C36D64CB766FF /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
-		A7C1454CCA5D11AA745026FC27B058B8 /* Smile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Smile.debug.xcconfig; sourceTree = "<group>"; };
-		A908D3E269AC6A933C23C92821247CCA /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
-		B3A23B16A0E347797E8B30D4A42FC12D /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
-		B66F988283265A3B8347033147651F88 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
-		B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		BA4616DAC6DEE20ECFEC004ED3887FA4 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
-		BDEEC39D65E40CD5CA75E34D2C1E1298 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
-		BEB9E15D9F46203295CAB9F9EF18AB64 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
-		C19EF00FD772C5A003DB9041EEEDC68A /* Categories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Categories.swift; path = Sources/Categories.swift; sourceTree = "<group>"; };
+		A6528634EB1514AA80E5F06E434A45C3 /* Emoji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Emoji.swift; path = Sources/Emoji.swift; sourceTree = "<group>"; };
 		C433D60EE269F5B9ADCFC202CB692447 /* Pods_TokenBoardGO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokenBoardGO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5B2E4BC421B14977F2DACD82F3B0457 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
 		D22838D66383F30FD8D8E729D2B5E8E7 /* Smile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Smile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D41FB65DC85DBD0F51E0B7D6C98136A0 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
-		D52A2CD295EB8A96345EBB203325CDDB /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
-		D588AD58F80FF2C139B7829A321C633A /* IQKeyboardManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.release.xcconfig; sourceTree = "<group>"; };
 		D5BD8F5782ABDFBDC99AD1EBD613A2DC /* Pods-TokenBoardGO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TokenBoardGO-dummy.m"; sourceTree = "<group>"; };
 		D8B816DE701E1F014FFD266D3AB64D1F /* Pods-TokenBoardGO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TokenBoardGO-umbrella.h"; sourceTree = "<group>"; };
-		E750C718095FC25E7168B9C10844CBE3 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
-		E81856C2426B89F7EC5B6A4FCB97836D /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
-		EC833B2089A6EE4044DD3BF3F92F6B2F /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
-		ED34BADF5B15F1E6472B1463B4698BC7 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
-		F354926687383DCE5891E4FDD4140074 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
-		F796A92A64B08D3CFB9F6014E14DD1D1 /* Emoji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Emoji.swift; path = Sources/Emoji.swift; sourceTree = "<group>"; };
+		F3A35DB45461826E672B1894358F46C0 /* Smile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Smile.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		40275C35DEA7649B5E03C0D8D4B0AF4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F920A523B8835F3DBBC24D28351087A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CA6F52589EEDE691D568FF05D65E3DE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -153,52 +75,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D60D33A3707866DE0E531A30B97EC2C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				850BAD4363C44CE8D1E968F48AC2CAD8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D800220AC90EA6D24068B308DD084B57 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				021A7843610D4AFDCFD51729F5F6DAA9 /* CoreGraphics.framework in Frameworks */,
-				1D1B584D5A7CA4A3CD7CBC19F9F3950C /* Foundation.framework in Frameworks */,
-				EE873445FD224B8C0AA6711C3185C96B /* QuartzCore.framework in Frameworks */,
-				B39A4110B2A1B646ACDD717B8AF84A05 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		216D11D6253026459814863746CC99A1 /* iOS */ = {
+		26016A6783673752494B3A12F791898A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				20A7DACB743F2A39BC0D9C0E317842D5 /* CoreGraphics.framework */,
-				762C973A19DDE5A5AD81F317CEA5461F /* Foundation.framework */,
-				B9B86528815F4C81E70D4F6522BB7687 /* QuartzCore.framework */,
-				56DE6DFF52489DACAF66A82BFD0FE2CA /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7283C04B42ACE2C6DACB072D6B8C9877 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1F3B8EA8FD7EB8FEED69FA5314943A44 /* IQKeyboardManager.modulemap */,
-				0EC3BF11DC8654361FA6BC03C37BF611 /* IQKeyboardManager-dummy.m */,
-				7F00E19AE806C4FD51D9277F9A6B3BB3 /* IQKeyboardManager-Info.plist */,
-				994D3D805D47237683DE8B0A24C96A85 /* IQKeyboardManager-prefix.pch */,
-				339DD22FEE2C7545BCCD8EE5BB2166C5 /* IQKeyboardManager-umbrella.h */,
-				0DAAF9FBEDF0BD57EFC8E6987BB7CB89 /* IQKeyboardManager.debug.xcconfig */,
-				D588AD58F80FF2C139B7829A321C633A /* IQKeyboardManager.release.xcconfig */,
+				F3A35DB45461826E672B1894358F46C0 /* Smile.modulemap */,
+				0C68334B78E99F58BF3807AFE9C15E2B /* Smile-dummy.m */,
+				3A97A8FDB4BCB917DE789CD0CF59CC31 /* Smile-Info.plist */,
+				93547A98A40D8CC1AAA6CDFE7852C546 /* Smile-prefix.pch */,
+				6DB83FC6A96D0C58E38ADBE8BF29CBE6 /* Smile-umbrella.h */,
+				56670AEA2991E1899B260334419DEFE6 /* Smile.debug.xcconfig */,
+				8EB34008DDB5DF9E6CB5E6C2FFCBD35F /* Smile.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/IQKeyboardManager";
+			path = "../Target Support Files/Smile";
+			sourceTree = "<group>";
+		};
+		74923983359A5D29AD350C56F07A9E73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C561518C0CD819FDAB25329C901A956 /* Smile */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C561518C0CD819FDAB25329C901A956 /* Smile */ = {
+			isa = PBXGroup;
+			children = (
+				2DA5BFC47D52F514F0D9465666F56DCE /* Categories.swift */,
+				A6528634EB1514AA80E5F06E434A45C3 /* Emoji.swift */,
+				3C7F0DB14D2C5D55F8EC89A9BB3FFFA3 /* Sequence.swift */,
+				601290656903B1B222FAA79FEB745FE7 /* Smile.swift */,
+				1EFB412667C0963B54BD258DE4CDD5DB /* Utils.swift */,
+				26016A6783673752494B3A12F791898A /* Support Files */,
+			);
+			path = Smile;
 			sourceTree = "<group>";
 		};
 		B39EDFA17BF922F2FB83B3BEFB32F275 /* Pods-TokenBoardGO */ = {
@@ -218,35 +131,21 @@
 			path = "Target Support Files/Pods-TokenBoardGO";
 			sourceTree = "<group>";
 		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+		B70FF8C70C244D731239C6BC3998EF7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				216D11D6253026459814863746CC99A1 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BB823190BE679FAB487EF724895DB59D /* Smile */ = {
-			isa = PBXGroup;
-			children = (
-				C19EF00FD772C5A003DB9041EEEDC68A /* Categories.swift */,
-				F796A92A64B08D3CFB9F6014E14DD1D1 /* Emoji.swift */,
-				6BF2C18CEBAEF07C7BF02D9B6B5561D6 /* Sequence.swift */,
-				8E64DA896A7E28319772B0F21277C874 /* Smile.swift */,
-				35862DA6CBA7903FB8E22F74EEFFDAC1 /* Utils.swift */,
-				C866E6BEB4460A7CBCED6BB0F5F43CE9 /* Support Files */,
-			);
-			path = Smile;
-			sourceTree = "<group>";
-		};
-		BD3CA0C967DD4C2FE7CC033E886468FE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */,
 				C433D60EE269F5B9ADCFC202CB692447 /* Pods_TokenBoardGO.framework */,
 				D22838D66383F30FD8D8E729D2B5E8E7 /* Smile.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		C79CAECD28B6B4DA6D052686DA9C84F7 /* Targets Support Files */ = {
@@ -257,86 +156,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C866E6BEB4460A7CBCED6BB0F5F43CE9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				84664B7DA3E20D6F28CC46F16F0D1BBA /* Smile.modulemap */,
-				76D18AA025592FBF819041FE03B737BF /* Smile-dummy.m */,
-				16221D498C84F148CEAA278ED3EEB009 /* Smile-Info.plist */,
-				6A1B53CE87741F718DED58E155373CE8 /* Smile-prefix.pch */,
-				6F46C0BE2D579FE1EF02C64B47B99B57 /* Smile-umbrella.h */,
-				A7C1454CCA5D11AA745026FC27B058B8 /* Smile.debug.xcconfig */,
-				71AAEBA1570632C55DA0635CCEB11153 /* Smile.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Smile";
-			sourceTree = "<group>";
-		};
-		CBBEC839938991730CBE71A4C4E08A1A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D2C1C8CC26839382988D4163B3261301 /* IQKeyboardManager */,
-				BB823190BE679FAB487EF724895DB59D /* Smile */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				CBBEC839938991730CBE71A4C4E08A1A /* Pods */,
-				BD3CA0C967DD4C2FE7CC033E886468FE /* Products */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				74923983359A5D29AD350C56F07A9E73 /* Pods */,
+				B70FF8C70C244D731239C6BC3998EF7F /* Products */,
 				C79CAECD28B6B4DA6D052686DA9C84F7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D2C1C8CC26839382988D4163B3261301 /* IQKeyboardManager */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0DAEC7D5090B4A8E7878E7BB5E1E05CE /* IQBarButtonItem.h */,
-				F354926687383DCE5891E4FDD4140074 /* IQBarButtonItem.m */,
-				122596E885B07B167994FED6EE747BE7 /* IQKeyboardManager.h */,
-				B3A23B16A0E347797E8B30D4A42FC12D /* IQKeyboardManager.m */,
-				1DC2C5F4F4755F38DC6ADB03C49F9CFC /* IQKeyboardManagerConstants.h */,
-				1012B93894F5F0DA4D158837A68FEC50 /* IQKeyboardManagerConstantsInternal.h */,
-				D41FB65DC85DBD0F51E0B7D6C98136A0 /* IQKeyboardReturnKeyHandler.h */,
-				BA4616DAC6DEE20ECFEC004ED3887FA4 /* IQKeyboardReturnKeyHandler.m */,
-				B66F988283265A3B8347033147651F88 /* IQNSArray+Sort.h */,
-				92B3F9A06C0178243475F38CBB53263E /* IQNSArray+Sort.m */,
-				D52A2CD295EB8A96345EBB203325CDDB /* IQPreviousNextView.h */,
-				0E30F1E7CE6D45181716B2C43F114D73 /* IQPreviousNextView.m */,
-				5F5209DA344E1681023D02839E18A54C /* IQTextView.h */,
-				ED34BADF5B15F1E6472B1463B4698BC7 /* IQTextView.m */,
-				EC833B2089A6EE4044DD3BF3F92F6B2F /* IQTitleBarButtonItem.h */,
-				4070AFCF6BFD6AAC2F6330FE4D3B7436 /* IQTitleBarButtonItem.m */,
-				E750C718095FC25E7168B9C10844CBE3 /* IQToolbar.h */,
-				BDEEC39D65E40CD5CA75E34D2C1E1298 /* IQToolbar.m */,
-				0446920D1A4998EA24D644314E5C9258 /* IQUIScrollView+Additions.h */,
-				A908D3E269AC6A933C23C92821247CCA /* IQUIScrollView+Additions.m */,
-				9C94AB6CCA561A23A6E329FA2EE25069 /* IQUITextFieldView+Additions.h */,
-				C5B2E4BC421B14977F2DACD82F3B0457 /* IQUITextFieldView+Additions.m */,
-				3C4D38B4C1D388F0740CB4DA68615043 /* IQUIView+Hierarchy.h */,
-				140EC7DCEC7DCFDD43D30DE0B335A1D7 /* IQUIView+Hierarchy.m */,
-				530CCC145D35B0265358351E5F8C587B /* IQUIView+IQKeyboardToolbar.h */,
-				E81856C2426B89F7EC5B6A4FCB97836D /* IQUIView+IQKeyboardToolbar.m */,
-				84DFA94E9D5623A5CCC467743B798CC6 /* IQUIViewController+Additions.h */,
-				BEB9E15D9F46203295CAB9F9EF18AB64 /* IQUIViewController+Additions.m */,
-				9D5A024499FD3C39F17485D5FA90B43D /* IQUIWindow+Hierarchy.h */,
-				A2E7C5728C902388648C36D64CB766FF /* IQUIWindow+Hierarchy.m */,
-				E42697B9436707E11FF8F794A41C017D /* Resources */,
-				7283C04B42ACE2C6DACB072D6B8C9877 /* Support Files */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
-			path = IQKeyboardManager;
-			sourceTree = "<group>";
-		};
-		E42697B9436707E11FF8F794A41C017D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1B760B7AB096F85DDC00ADF648FDE5CA /* IQKeyboardManager.bundle */,
-			);
-			name = Resources;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,35 +186,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7321D8F248C11CA7842C9BFAC6B1FC5F /* Headers */ = {
+		8D861122214D9ABA70227F86706AA7AC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A996F5C6903770D358005EAB72A55E8 /* IQBarButtonItem.h in Headers */,
-				1161101396D504B3A18FE07B75DF6085 /* IQKeyboardManager-umbrella.h in Headers */,
-				4FCF4B26378C4F12FC4762DCEA7281A7 /* IQKeyboardManager.h in Headers */,
-				86ABEE62AC98E694BE62BB7C102BA47C /* IQKeyboardManagerConstants.h in Headers */,
-				EE60DC25895EF60DCEB742CF68327600 /* IQKeyboardManagerConstantsInternal.h in Headers */,
-				DAAA85C2A08AF6F8C6F7A04DB95B7D4B /* IQKeyboardReturnKeyHandler.h in Headers */,
-				5E5852BCCDDBF67E8986DF8B0E9A8A07 /* IQNSArray+Sort.h in Headers */,
-				18EE8777010D3F8AFEC986A7D01BA525 /* IQPreviousNextView.h in Headers */,
-				9F3D9B2D91207655A77733069532F5E3 /* IQTextView.h in Headers */,
-				D2A48900D67BE103CC3D1B827E4D1341 /* IQTitleBarButtonItem.h in Headers */,
-				EB6E6EE7C7A0B6965E36728A5C4B872D /* IQToolbar.h in Headers */,
-				0F3485F8326C24CF4A12603C107370A5 /* IQUIScrollView+Additions.h in Headers */,
-				88280BED17CF630BF698A27866C8FD14 /* IQUITextFieldView+Additions.h in Headers */,
-				F09068736605E970149CD44E90743C6A /* IQUIView+Hierarchy.h in Headers */,
-				5BAFCED874962525AFEDE2D498F53F9E /* IQUIView+IQKeyboardToolbar.h in Headers */,
-				351FB73EC804FF12AC1F9F082976128A /* IQUIViewController+Additions.h in Headers */,
-				B4CCB4425FE90A30A073C7FEC765B913 /* IQUIWindow+Hierarchy.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9448FF0169BE4430FA2011BD90F8D77 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D8E61066151E92842C65B71123BECF4 /* Pods-TokenBoardGO-umbrella.h in Headers */,
+				2A5A97CA074A77850A5167B2F0A109D7 /* Pods-TokenBoardGO-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,18 +199,17 @@
 /* Begin PBXNativeTarget section */
 		93D43677DA0540C3B83E7B158FBE082A /* Pods-TokenBoardGO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B6F7EA07839D766AA5B67DB172A9F7A /* Build configuration list for PBXNativeTarget "Pods-TokenBoardGO" */;
+			buildConfigurationList = 6980C096AC8490C9DD40ACC9ACFB699A /* Build configuration list for PBXNativeTarget "Pods-TokenBoardGO" */;
 			buildPhases = (
-				C9448FF0169BE4430FA2011BD90F8D77 /* Headers */,
-				C1B8ABBED9F2ADC54B957D77570BACF5 /* Sources */,
-				D60D33A3707866DE0E531A30B97EC2C3 /* Frameworks */,
-				ECC4A0A928C3BD3CFB307CAB7C08F767 /* Resources */,
+				8D861122214D9ABA70227F86706AA7AC /* Headers */,
+				1D9F32F8B86A6299DD40D1A9CF1E6897 /* Sources */,
+				40275C35DEA7649B5E03C0D8D4B0AF4F /* Frameworks */,
+				BAA0A6D05B9B6BC7BAC783FAE9F7CAA6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E4F12229AD41943FCE87E7954A026030 /* PBXTargetDependency */,
-				8B155BFB0EF83291154CCDAC4E6396AA /* PBXTargetDependency */,
+				618A7A5275B841D2969CC29D261935DB /* PBXTargetDependency */,
 			);
 			name = "Pods-TokenBoardGO";
 			productName = "Pods-TokenBoardGO";
@@ -421,24 +232,6 @@
 			name = Smile;
 			productName = Smile;
 			productReference = D22838D66383F30FD8D8E729D2B5E8E7 /* Smile.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B14CFAB57E8EAC07502E1B9D5AF9474 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
-			buildPhases = (
-				7321D8F248C11CA7842C9BFAC6B1FC5F /* Headers */,
-				71C4B236142B3409FFF96D3D2BB2A977 /* Sources */,
-				D800220AC90EA6D24068B308DD084B57 /* Frameworks */,
-				949F97F760F9BE014FD10F14F7FF61E4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = IQKeyboardManager;
-			productName = IQKeyboardManager;
-			productReference = 98527D7196957AAB07B79E2E2AFDE23E /* IQKeyboardManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -464,11 +257,10 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BD3CA0C967DD4C2FE7CC033E886468FE /* Products */;
+			productRefGroup = B70FF8C70C244D731239C6BC3998EF7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */,
 				93D43677DA0540C3B83E7B158FBE082A /* Pods-TokenBoardGO */,
 				E504DDD9BF25DED11BB952B228543F69 /* Smile */,
 			);
@@ -476,11 +268,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		949F97F760F9BE014FD10F14F7FF61E4 /* Resources */ = {
+		BAA0A6D05B9B6BC7BAC783FAE9F7CAA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12C79C87BC6B32DF94E1AF82F511260D /* IQKeyboardManager.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,43 +282,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECC4A0A928C3BD3CFB307CAB7C08F767 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		71C4B236142B3409FFF96D3D2BB2A977 /* Sources */ = {
+		1D9F32F8B86A6299DD40D1A9CF1E6897 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C75B92FE80B51357B72756F0CA09582 /* IQBarButtonItem.m in Sources */,
-				AFCD164C50145578AFEE1DE092A70E6B /* IQKeyboardManager-dummy.m in Sources */,
-				974DC4F4A8679294AE1C06A3566F748B /* IQKeyboardManager.m in Sources */,
-				4A9565433B945CBD0F0AE3E2C815F9DD /* IQKeyboardReturnKeyHandler.m in Sources */,
-				98FDDEDD1A72081116963E600DF50B59 /* IQNSArray+Sort.m in Sources */,
-				63978BDAAE1BBA56E6B592A6A2708C4F /* IQPreviousNextView.m in Sources */,
-				0EB90AE9BFDC21531E8CD9BFDA1C968F /* IQTextView.m in Sources */,
-				7A245C17ED53994D3379CAA7B2CFEDB4 /* IQTitleBarButtonItem.m in Sources */,
-				BD2296C85482BD0C9F296EEFB0A821BD /* IQToolbar.m in Sources */,
-				EDDE5B1791168886BC78708CC7A119E4 /* IQUIScrollView+Additions.m in Sources */,
-				368CFB934734CF29A4D945F9A08AAF86 /* IQUITextFieldView+Additions.m in Sources */,
-				B48E93F2278C9C30502D987B9C4ED1D3 /* IQUIView+Hierarchy.m in Sources */,
-				9E3263E95377586A7A509968FE55FA1C /* IQUIView+IQKeyboardToolbar.m in Sources */,
-				4E19C6212BD51460F371133C4261D847 /* IQUIViewController+Additions.m in Sources */,
-				C603F0C51240AC2C953CB00A8BBD4994 /* IQUIWindow+Hierarchy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1B8ABBED9F2ADC54B957D77570BACF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6832EA785B2DBF330BA54A0E83ACE782 /* Pods-TokenBoardGO-dummy.m in Sources */,
+				184D7AED0A16DAA83038A31A7965E3A4 /* Pods-TokenBoardGO-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,56 +309,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8B155BFB0EF83291154CCDAC4E6396AA /* PBXTargetDependency */ = {
+		618A7A5275B841D2969CC29D261935DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Smile;
 			target = E504DDD9BF25DED11BB952B228543F69 /* Smile */;
-			targetProxy = FF887AA705767AD5CCBBD7A43A3AB030 /* PBXContainerItemProxy */;
-		};
-		E4F12229AD41943FCE87E7954A026030 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IQKeyboardManager;
-			target = FBA456CB50E371584C11231929A0971E /* IQKeyboardManager */;
-			targetProxy = AC14B81438C9F21637AFEC0F01342C03 /* PBXContainerItemProxy */;
+			targetProxy = 04A538F64CC295629B3559CCF81652B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04612C53028406D111D9D9ECBFBCEB95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AF36E12CEC070D04EF4641B0CB937D8 /* Pods-TokenBoardGO.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -662,7 +383,70 @@
 			};
 			name = Debug;
 		};
-		1A50192D79A75BFA51D1CBC3095FDBD7 /* Debug */ = {
+		502D09E5BD76D04F355ACF412AA91237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB34008DDB5DF9E6CB5E6C2FFCBD35F /* Smile.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Smile/Smile-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Smile/Smile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Smile/Smile.modulemap";
+				PRODUCT_MODULE_NAME = Smile;
+				PRODUCT_NAME = Smile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F97ACB0DEB77A8026BEAE7160DBC4F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56670AEA2991E1899B260334419DEFE6 /* Smile.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Smile/Smile-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Smile/Smile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Smile/Smile.modulemap";
+				PRODUCT_MODULE_NAME = Smile;
+				PRODUCT_NAME = Smile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7890249A2FA35BE6056039D889F8EE2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 589BE9588AAAD5B7975945A80CC21C70 /* Pods-TokenBoardGO.debug.xcconfig */;
 			buildSettings = {
@@ -695,132 +479,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		1D7915CC41EF1C4F39AFE1A42B52F731 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DAAF9FBEDF0BD57EFC8E6987BB7CB89 /* IQKeyboardManager.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
-				PRODUCT_MODULE_NAME = IQKeyboardManager;
-				PRODUCT_NAME = IQKeyboardManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		502D09E5BD76D04F355ACF412AA91237 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71AAEBA1570632C55DA0635CCEB11153 /* Smile.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Smile/Smile-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Smile/Smile-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Smile/Smile.modulemap";
-				PRODUCT_MODULE_NAME = Smile;
-				PRODUCT_NAME = Smile;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5F97ACB0DEB77A8026BEAE7160DBC4F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7C1454CCA5D11AA745026FC27B058B8 /* Smile.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Smile/Smile-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Smile/Smile-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Smile/Smile.modulemap";
-				PRODUCT_MODULE_NAME = Smile;
-				PRODUCT_NAME = Smile;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BFFEC05CDE1F108DA19D71880D038C7D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D588AD58F80FF2C139B7829A321C633A /* IQKeyboardManager.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
-				PRODUCT_MODULE_NAME = IQKeyboardManager;
-				PRODUCT_NAME = IQKeyboardManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -882,6 +540,41 @@
 			};
 			name = Release;
 		};
+		F46B88D5E05E7FD7F34B73E33321EF78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF36E12CEC070D04EF4641B0CB937D8 /* Pods-TokenBoardGO.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TokenBoardGO/Pods-TokenBoardGO.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -890,15 +583,6 @@
 			buildConfigurations = (
 				5F97ACB0DEB77A8026BEAE7160DBC4F7 /* Debug */,
 				502D09E5BD76D04F355ACF412AA91237 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B6F7EA07839D766AA5B67DB172A9F7A /* Build configuration list for PBXNativeTarget "Pods-TokenBoardGO" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A50192D79A75BFA51D1CBC3095FDBD7 /* Debug */,
-				04612C53028406D111D9D9ECBFBCEB95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -912,11 +596,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B14CFAB57E8EAC07502E1B9D5AF9474 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+		6980C096AC8490C9DD40ACC9ACFB699A /* Build configuration list for PBXNativeTarget "Pods-TokenBoardGO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D7915CC41EF1C4F39AFE1A42B52F731 /* Debug */,
-				BFFEC05CDE1F108DA19D71880D038C7D /* Release */,
+				7890249A2FA35BE6056039D889F8EE2B /* Debug */,
+				F46B88D5E05E7FD7F34B73E33321EF78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

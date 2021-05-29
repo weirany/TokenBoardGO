@@ -1,20 +1,16 @@
 PODS:
-  - IQKeyboardManager (6.5.3)
   - Smile (2.0.0)
 
 DEPENDENCIES:
-  - IQKeyboardManager
   - Smile
 
 SPEC REPOS:
   trunk:
-    - IQKeyboardManager
     - Smile
 
 SPEC CHECKSUMS:
-  IQKeyboardManager: c2f901164d56807a35788483584d09fa69192e8e
   Smile: 21ff6c48e06ecfcee605cca32aedd74d5810e34a
 
-PODFILE CHECKSUM: eda98acf5d3cb2e577dc25fec7e66f3535bdab70
+PODFILE CHECKSUM: 8057fbfe847e3fdccd3e41708acafccd4bcfdd86
 
 COCOAPODS: 1.9.1
