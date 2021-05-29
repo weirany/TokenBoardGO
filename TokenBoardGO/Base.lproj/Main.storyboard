@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RFO-Dm-RuZ">
-    <device id="retina4_0" orientation="landscape" appearance="light"/>
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -9,43 +9,43 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TokenBoardGO" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="TokenBoardGO" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CuteBackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dhY-Sb-hg9">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am working for  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="M2E-Oh-3RU">
-                                <rect key="frame" x="20" y="48.5" width="432" height="63.5"/>
+                                <rect key="frame" x="60" y="74.5" width="652" height="63.5"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="50"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tj-SG-ade">
-                                <rect key="frame" x="452" y="32" width="96" height="96"/>
+                                <rect key="frame" x="712" y="44" width="124" height="124"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="1tj-SG-ade" secondAttribute="height" multiplier="1:1" id="xgl-eH-Wfu"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="❓"/>
                                 <connections>
                                     <segue destination="leG-XZ-S8L" kind="show" id="jD1-54-IWT"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ow7-ff-x0A">
-                                <rect key="frame" x="85" y="128" width="398" height="64"/>
+                                <rect key="frame" x="134.5" y="165.5" width="627" height="83"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c92-xq-4vE">
-                                        <rect key="frame" x="0.0" y="0.0" width="79.5" height="64"/>
+                                        <rect key="frame" x="0.0" y="5.5" width="125.5" height="72"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <state key="normal" title="⚪️"/>
                                         <connections>
@@ -53,7 +53,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubT-0Q-D8A">
-                                        <rect key="frame" x="79.5" y="0.0" width="79.5" height="64"/>
+                                        <rect key="frame" x="125.5" y="5.5" width="125.5" height="72"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <state key="normal" title="⚪️"/>
                                         <connections>
@@ -61,7 +61,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ob-5s-2RX">
-                                        <rect key="frame" x="159" y="0.0" width="80" height="64"/>
+                                        <rect key="frame" x="251" y="5.5" width="125" height="72"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <state key="normal" title="⚪️"/>
                                         <connections>
@@ -69,7 +69,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JRY-iZ-ssQ">
-                                        <rect key="frame" x="239" y="0.0" width="79.5" height="64"/>
+                                        <rect key="frame" x="376" y="5.5" width="125.5" height="72"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <state key="normal" title="⚪️"/>
                                         <connections>
@@ -77,7 +77,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhV-If-URJ">
-                                        <rect key="frame" x="318.5" y="0.0" width="79.5" height="64"/>
+                                        <rect key="frame" x="501.5" y="5.5" width="125.5" height="72"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                         <state key="normal" title="⚪️"/>
                                         <connections>
@@ -92,6 +92,7 @@
                             <constraint firstItem="1tj-SG-ade" firstAttribute="centerY" secondItem="M2E-Oh-3RU" secondAttribute="centerY" id="8OC-h6-2ey"/>
                             <constraint firstItem="Ow7-ff-x0A" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="AaP-CO-G9X"/>
                             <constraint firstItem="1tj-SG-ade" firstAttribute="leading" secondItem="M2E-Oh-3RU" secondAttribute="trailing" id="C3q-eH-XfY"/>
+                            <constraint firstAttribute="bottom" secondItem="dhY-Sb-hg9" secondAttribute="bottom" id="COk-F0-hw3"/>
                             <constraint firstItem="1tj-SG-ade" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="FtK-3q-sP3"/>
                             <constraint firstItem="dhY-Sb-hg9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HV2-ZH-XVv"/>
                             <constraint firstItem="Ow7-ff-x0A" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="N8z-u7-uod"/>
@@ -101,7 +102,6 @@
                             <constraint firstItem="Ow7-ff-x0A" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="ULq-Ly-5xx"/>
                             <constraint firstItem="M2E-Oh-3RU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Z5A-pr-Xb9"/>
                             <constraint firstItem="1tj-SG-ade" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="g3E-Po-bF6"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dhY-Sb-hg9" secondAttribute="bottom" id="rdT-KP-kQf"/>
                             <constraint firstItem="1tj-SG-ade" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="ytR-R8-yLV"/>
                         </constraints>
                     </view>
@@ -128,15 +128,15 @@
                         <viewControllerLayoutGuide type="bottom" id="K1v-sN-smY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bgP-2q-mXX">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="5Qx-y0-H8j">
-                                <rect key="frame" x="0.0" y="32" width="568" height="51"/>
+                            <searchBar contentMode="redraw" placeholder="Search for a goal" translatesAutoresizingMaskIntoConstraints="NO" id="5Qx-y0-H8j">
+                                <rect key="frame" x="0.0" y="44" width="896" height="51"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="26c-aJ-f0N">
-                                <rect key="frame" x="0.0" y="83" width="568" height="237"/>
+                                <rect key="frame" x="44" y="95" width="808" height="277"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Lz4-zP-c3c">
                                     <size key="itemSize" width="128" height="128"/>
@@ -178,13 +178,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="26c-aJ-f0N" firstAttribute="leading" secondItem="bgP-2q-mXX" secondAttribute="leading" constant="44" id="DUv-MM-dAt"/>
                             <constraint firstAttribute="trailing" secondItem="5Qx-y0-H8j" secondAttribute="trailing" id="DXt-OE-lO3"/>
-                            <constraint firstAttribute="trailing" secondItem="26c-aJ-f0N" secondAttribute="trailing" id="XaB-nq-E2p"/>
+                            <constraint firstAttribute="trailing" secondItem="26c-aJ-f0N" secondAttribute="trailing" constant="44" id="XaB-nq-E2p"/>
                             <constraint firstItem="5Qx-y0-H8j" firstAttribute="leading" secondItem="bgP-2q-mXX" secondAttribute="leading" id="XsP-B7-GO5"/>
                             <constraint firstItem="5Qx-y0-H8j" firstAttribute="top" secondItem="N1J-iU-mky" secondAttribute="bottom" symbolic="YES" id="YJC-1w-kmn"/>
-                            <constraint firstItem="26c-aJ-f0N" firstAttribute="leading" secondItem="bgP-2q-mXX" secondAttribute="leading" id="a0J-aW-Cif"/>
                             <constraint firstItem="26c-aJ-f0N" firstAttribute="top" secondItem="5Qx-y0-H8j" secondAttribute="bottom" id="dWb-3p-Hw0"/>
-                            <constraint firstItem="K1v-sN-smY" firstAttribute="top" secondItem="26c-aJ-f0N" secondAttribute="bottom" id="vx2-6P-yOh"/>
+                            <constraint firstItem="K1v-sN-smY" firstAttribute="top" secondItem="26c-aJ-f0N" secondAttribute="bottom" constant="21" id="vx2-6P-yOh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Pick a Goal" id="vbS-Au-VM8"/>
@@ -195,14 +195,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vjj-u1-aep" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="61.875"/>
+            <point key="canvasLocation" x="750" y="61.538461538461533"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="V0F-aM-7dX">
             <objects>
                 <navigationController id="RFO-Dm-RuZ" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nfC-Aa-LAb">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="32"/>
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

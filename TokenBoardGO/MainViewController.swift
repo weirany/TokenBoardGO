@@ -1,7 +1,7 @@
 import UIKit
 import StoreKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     @IBOutlet weak var goalButton: UIButton!
     @IBOutlet weak var s0: UIButton!
@@ -12,8 +12,6 @@ class ViewController: UIViewController {
     
     var stars: [UIButton] = []
     var starsStatus: [Bool] = []
-    
-    let goals = ["❓","🍕","🍟","🐒","🐳","🐇","🌻","🍄","🎃","☃️","🍎","🍉","🍇","🧀","🍗","🍔","🌭","🍝","🌮","🍜","🍦","🍰","🍬","🍭","🍫","🍿","🍩","🍪","🍴","⚽️","🏀","🏈","⚾️","🎾","🏐","🏉","🎱","🏓","🏸","🏊‍♀️","🛀","🎗","🏆","🎤","🎮","🎼","🚕","🚌","🚒","✈️","🛥","🎡","📱","💻","📽","📺","💵","🔫","🔭","⛱","📖","❤️","♠️"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

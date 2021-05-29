@@ -5,17 +5,23 @@ class GoalViewController: UIViewController, UISearchBarDelegate, UICollectionVie
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var emojiCollection: UICollectionView!
     
-    private let allEmojis = AllEmojis()
+    private var allEmojis: AllEmojis?
     private var emojis: [Emoji] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        DispatchQueue.global(qos: .userInitiated).async {
+            self.allEmojis = AllEmojis()
+            self.emojis = self.allEmojis!.filter(keyword: "")
+            DispatchQueue.main.async {
+                self.emojiCollection.reloadData()
+            }
+        }
+        
         searchBar.delegate = self
         emojiCollection.delegate = self
         emojiCollection.dataSource = self
-        
-        emojis = allEmojis.filter(keyword: "")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -23,8 +29,10 @@ class GoalViewController: UIViewController, UISearchBarDelegate, UICollectionVie
     }
 
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        emojis = allEmojis.filter(keyword: searchText)
-        emojiCollection.reloadData()
+        if let allEmojis = allEmojis {
+            emojis = allEmojis.filter(keyword: searchText)
+            emojiCollection.reloadData()
+        }
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
